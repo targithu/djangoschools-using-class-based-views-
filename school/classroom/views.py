@@ -32,7 +32,7 @@ class TeacherListView(ListView):
     #model_list.html
     model=Teacher
     #By default here QuerySet=Teacher.objects.all() can change if u want to
-    context_object_name="teacher_list"
+    context_object_name="teacher_list"  
 class TeacherDetailView(DetailView):
     #RETURN ONLY ONE MODEL ENTRY PK
     #model_detail.html
